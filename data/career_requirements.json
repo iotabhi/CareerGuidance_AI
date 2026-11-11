@@ -1,0 +1,44 @@
+
+{
+    "Machine Learning Engineer": [
+        "Python",
+        "Statistics",
+        "Linear Algebra",
+        "Machine Learning",
+        "Deep Learning",
+        "Data Structures"
+    ],
+
+    "Data Scientist": [
+        "Python",
+        "SQL",
+        "Statistics",
+        "Machine Learning",
+        "Data Analysis",
+        "Data Visualization"
+    ],
+
+    "Data Analyst": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Statistics",
+        "Data Visualization"
+    ],
+
+    "Software Engineer": [
+        "Java",
+        "Python",
+        "Data Structures",
+        "Algorithms",
+        "Problem Solving"
+    ],
+
+    "Cybersecurity Analyst": [
+        "Networking",
+        "Linux",
+        "Python",
+        "Cybersecurity",
+        "Security Fundamentals"
+    ]
+}

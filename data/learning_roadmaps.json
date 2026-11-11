@@ -1,0 +1,238 @@
+
+{
+  "Data Scientist": [
+    {
+      "stage": 1,
+      "title": "Python Programming",
+      "topics": [
+        "Python Basics",
+        "Variables and Data Types",
+        "Functions and OOP",
+        "NumPy",
+        "Pandas"
+      ],
+      "prerequisite": [],
+      "skills": ["Python"]
+    },
+    {
+      "stage": 2,
+      "title": "Mathematics and Statistics",
+      "topics": [
+        "Linear Algebra",
+        "Probability",
+        "Descriptive Statistics",
+        "Inferential Statistics"
+      ],
+      "prerequisite": ["Python Programming"],
+      "skills": ["Statistics", "Linear Algebra"]
+    },
+    {
+      "stage": 3,
+      "title": "Data Analysis",
+      "topics": [
+        "Data Cleaning",
+        "Exploratory Data Analysis",
+        "Data Visualization",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "prerequisite": [
+        "Python Programming",
+        "Mathematics and Statistics"
+      ],
+      "skills": ["Data Analysis", "Data Visualization"]
+    },
+    {
+      "stage": 4,
+      "title": "Machine Learning",
+      "topics": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Model Evaluation"
+      ],
+      "prerequisite": [
+        "Mathematics and Statistics",
+        "Data Analysis"
+      ],
+      "skills": ["Machine Learning"]
+    },
+    {
+      "stage": 5,
+      "title": "Advanced Machine Learning",
+      "topics": [
+        "Neural Networks",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Model Optimization"
+      ],
+      "prerequisite": ["Machine Learning"],
+      "skills": ["Deep Learning"]
+    },
+    {
+      "stage": 6,
+      "title": "Projects and Deployment",
+      "topics": [
+        "End-to-End Data Science Projects",
+        "Git and GitHub",
+        "Model Deployment",
+        "Portfolio Development"
+      ],
+      "prerequisite": [
+        "Data Analysis",
+        "Machine Learning"
+      ],
+      "skills": []
+    }
+  ],
+
+  "Machine Learning Engineer": [
+    {
+      "stage": 1,
+      "title": "Python and Programming",
+      "topics": [
+        "Python Basics",
+        "OOP",
+        "Data Structures",
+        "Algorithms",
+        "NumPy"
+      ],
+      "prerequisite": [],
+      "skills": ["Python", "Data Structures"]
+    },
+    {
+      "stage": 2,
+      "title": "Mathematical Foundations",
+      "topics": [
+        "Linear Algebra",
+        "Calculus",
+        "Probability",
+        "Statistics"
+      ],
+      "prerequisite": ["Python and Programming"],
+      "skills": ["Linear Algebra", "Statistics"]
+    },
+    {
+      "stage": 3,
+      "title": "Data Processing",
+      "topics": [
+        "Pandas",
+        "Data Cleaning",
+        "Feature Engineering",
+        "Exploratory Data Analysis"
+      ],
+      "prerequisite": ["Python and Programming"],
+      "skills": ["Data Analysis"]
+    },
+    {
+      "stage": 4,
+      "title": "Machine Learning",
+      "topics": [
+        "Regression",
+        "Classification",
+        "Decision Trees",
+        "Random Forest",
+        "Clustering",
+        "Model Evaluation"
+      ],
+      "prerequisite": [
+        "Mathematical Foundations",
+        "Data Processing"
+      ],
+      "skills": ["Machine Learning"]
+    },
+    {
+      "stage": 5,
+      "title": "Deep Learning",
+      "topics": [
+        "Neural Networks",
+        "CNN",
+        "RNN",
+        "Transformers",
+        "PyTorch"
+      ],
+      "prerequisite": ["Machine Learning"],
+      "skills": ["Deep Learning"]
+    },
+    {
+      "stage": 6,
+      "title": "Deployment and MLOps",
+      "topics": [
+        "Flask or FastAPI",
+        "Docker",
+        "Model Deployment",
+        "ML Pipelines",
+        "GitHub"
+      ],
+      "prerequisite": ["Deep Learning"],
+      "skills": []
+    }
+  ],
+
+  "Data Analyst": [
+    {
+      "stage": 1,
+      "title": "Excel and SQL",
+      "topics": [
+        "Excel Basics",
+        "SQL Queries",
+        "Joins",
+        "Aggregations",
+        "Subqueries"
+      ],
+      "prerequisite": [],
+      "skills": ["SQL", "Excel"]
+    },
+    {
+      "stage": 2,
+      "title": "Python for Data Analysis",
+      "topics": [
+        "Python Basics",
+        "NumPy",
+        "Pandas",
+        "Data Cleaning"
+      ],
+      "prerequisite": ["Excel and SQL"],
+      "skills": ["Python", "Data Analysis"]
+    },
+    {
+      "stage": 3,
+      "title": "Statistics and Visualization",
+      "topics": [
+        "Descriptive Statistics",
+        "Probability",
+        "Matplotlib",
+        "Seaborn",
+        "Dashboard Creation"
+      ],
+      "prerequisite": ["Python for Data Analysis"],
+      "skills": ["Statistics", "Data Visualization"]
+    },
+    {
+      "stage": 4,
+      "title": "Business Intelligence",
+      "topics": [
+        "Power BI",
+        "Tableau",
+        "Business Metrics",
+        "Data Storytelling"
+      ],
+      "prerequisite": ["Statistics and Visualization"],
+      "skills": []
+    },
+    {
+      "stage": 5,
+      "title": "Projects and Portfolio",
+      "topics": [
+        "Exploratory Data Analysis Projects",
+        "SQL Projects",
+        "Dashboard Projects",
+        "GitHub Portfolio"
+      ],
+      "prerequisite": ["Business Intelligence"],
+      "skills": []
+    }
+  ]
+}
